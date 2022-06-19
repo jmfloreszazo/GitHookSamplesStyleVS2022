@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "Building before push"
+
+dotnet build
+
+echo "Build done!"
+
+echo "Test before push"
+
+dotnet test "./TestProject/TestProject.csproj"
+
+echo "Test done!"
