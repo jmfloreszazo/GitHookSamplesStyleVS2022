@@ -1,0 +1,1 @@
+# GitHookSamplesStyleVS2022
